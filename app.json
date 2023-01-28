@@ -3,19 +3,19 @@
     "logo": "https://telegra.ph/file/cb7b0aead06c96955323e.jpg",
     "description": "Grabs song from yt and sends it to telegram by @TamilBots",
     "env": {
-        "API_ID": {
+        "API_ID": "15807442" {
             "description": "Get this value from my.telegram.org.",
             "required": true
         },
-        "API_HASH": {
+        "API_HASH": "c993142b7c8b44e8efb1093c2321071d" {
             "description": "Get this value from my.telegram.org.",
             "required": true
         },
-        "BOT_TOKEN": {
+        "BOT_TOKEN": "5876469070:AAHittpmqH6UAc8g7DNzOBQAd2nTG9bRAsk" {
             "description": "Get this value by making a bot from @BotFather.",
             "required": true
         },
-        "OWNER_ID": {
+        "OWNER_ID": "1699462699" {
             "description": "Your telegram user id.",
             "required": true
         }
@@ -36,7 +36,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "standard-1x"
         }
     }
 }
